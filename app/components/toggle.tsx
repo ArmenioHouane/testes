@@ -1,14 +1,16 @@
 "use client";
 import { useTheme } from 'next-themes';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    console.log('useTheme hook:', useTheme);
-    console.log('Theme:', theme);
-  }, [theme]);
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null; // Prevents hydration mismatch
 
   return (
     <button
