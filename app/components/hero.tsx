@@ -1,5 +1,6 @@
 "use client";
 import ThemeToggle from "./toggle";
+import { Button } from "./material";
 
 const Hero = () => {
   return (
@@ -25,6 +26,9 @@ const Hero = () => {
                >
               Connect with me on:
               </h2>
+
+              <Button>Button</Button>
+
 
              
           </div>
