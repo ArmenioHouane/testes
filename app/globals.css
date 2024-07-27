@@ -3,10 +3,3 @@
 @tailwind utilities;
 
 
-body {
-  @apply bg-white text-black; /* Padrão para modo claro */
-}
-
-.dark body {
-  @apply bg-black text-white; /* Padrão para modo escuro */
-}
