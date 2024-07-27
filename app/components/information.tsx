@@ -76,10 +76,10 @@ const SKILLS = [
     children:(
       
       <>
-        <Typography variant="body" component="div">
+        <Typography variant="paragraph" >
         Skilled in creating responsive layouts using CSS Grid, Flexbox, and media queries. Ensures websites adapt seamlessly to various screen sizes and devices.
         </Typography>
-        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300" component="div">
+        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300">
           Skills:
         </Typography>
         <ul className="list-disc pl-5 mb-2 text-black dark:text-gray-400">
@@ -100,10 +100,10 @@ const SKILLS = [
     children: (
       
       <>
-        <Typography variant="body" component="div">
+        <Typography variant="paragraph"  >
           Competent in working with front-end JavaScript frameworks such as React, Angular, or Vue.js to develop dynamic and responsive web applications with a focus on user experience.
         </Typography>
-        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300" component="div">
+        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300"  >
           Skills:
         </Typography>
         <ul className="list-disc pl-5 mb-2 text-black dark:text-gray-400">
@@ -129,10 +129,10 @@ const SKILLS = [
     date: "Technical Skills",
     children: (
       <>
-        <Typography variant="body" component="div">
+        <Typography variant="paragraph"  >
           Competent in working with back-end frameworks and libraries to develop robust and scalable web applications.
         </Typography>
-        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300" component="div">
+        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300"  >
           Skills:
         </Typography>
         <ul className="list-disc pl-5 mb-2 text-black dark:text-gray-400">
@@ -152,10 +152,10 @@ const SKILLS = [
     date: "Technical Skills",
     children: (
       <>
-        <Typography variant="body" component="div">
+        <Typography variant="paragraph"  >
           Proficient in programming languages used for various aspects of software development.
         </Typography>
-        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300" component="div">
+        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300"  >
           Skills:
         </Typography>
         <ul className="list-disc pl-5 mb-2 text-black dark:text-gray-400">
@@ -174,10 +174,10 @@ const SKILLS = [
     date: "Technical Skills",
     children: (
       <>
-        <Typography variant="body" component="div">
+        <Typography variant="paragraph"  >
           Experienced in using build tools and hosting platforms for deploying web applications.
         </Typography>
-        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300" component="div">
+        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300"  >
           Skills:
         </Typography>
         <ul className="list-disc pl-5 mb-2 text-black dark:text-gray-400">
@@ -195,10 +195,10 @@ const SKILLS = [
     date: "Technical Skills",
     children: (
       <>
-        <Typography variant="body" component="div">
+        <Typography variant="paragraph"  >
         Skilled in working with various database technologies for data storage and management.
         </Typography>
-        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300" component="div">
+        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300"  >
           Skills:
         </Typography>
         <ul className="list-disc pl-5 mb-2 text-black dark:text-gray-400">
@@ -218,10 +218,10 @@ const SKILLS = [
     date: "Technical Skills",
     children: (
       <>
-        <Typography variant="body" component="div">
+        <Typography variant="paragraph"  >
         Proficient in using various tools and technologies for web development and project management.
         </Typography>
-        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300" component="div">
+        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300"  >
           Skills:
         </Typography>
         <ul className="list-disc pl-5 mb-2 text-black dark:text-gray-400">
@@ -240,10 +240,10 @@ const SKILLS = [
     date: "Technical Skills",
     children: (
       <>
-        <Typography variant="body" component="div">
+        <Typography variant="paragraph"  >
         Proficient in DevOps methodologies aimed at enhancing collaboration between development and operations teams to streamline software delivery and improve deployment frequency, such as continuous integration, continuous delivery, and automated testing.
         </Typography>
-        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300" component="div">
+        <Typography color="blue-gray" className="mb-2 font-medium dark:text-blue-300"  >
           Skills:
         </Typography>
         <ul className="list-disc pl-5 mb-2 text-black dark:text-gray-400">
@@ -262,10 +262,10 @@ const SKILLS = [
     date: "Technical Skills",
     children: (
       <>
-        <Typography variant="body" component="div">
+        <Typography variant="paragraph"  >
         Specializing in advanced front-end development techniques to enhance user experience and application performance.
         </Typography>
-        <Typography color="blue-gray" className="mb-2 font-medium  dark:text-blue-300" component="div">
+        <Typography color="blue-gray" className="mb-2 font-medium  dark:text-blue-300"  >
           Skills:
         </Typography>
         <ul className="list-disc pl-5 mb-2 text-black dark:text-gray-400">
