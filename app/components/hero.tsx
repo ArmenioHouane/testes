@@ -3,6 +3,14 @@ import ThemeToggle from "./toggle";
 import { Button } from "./material";
 import { FaGithub } from "react-icons/fa";
 import { IconButton } from "./material";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
+
+
+
+
 
 
 
@@ -32,16 +40,30 @@ const Hero = () => {
               Connect with me on:
               </h2>
 
-              <Button>Button</Button>
 
-              <div className="flex gap-4">
-       <a href="https://web.facebook.com/armenio.amalio.5" target="_blank" rel="noopener noreferrer">
+              <div className="gap-2 lg:flex ">
+            <a href="https://web.facebook.com/armenio.amalio.5" target="_blank" rel="noopener noreferrer">
               <IconButton variant="text" color="gray" >
-                <FaGithub className="text-lg  dark:text-white hover:text-blue-500 dark:hover:text-blue-500" />
-               
+                <FaFacebook className="fa-brands  fa-facebook text-lg  dark:text-white hover:text-blue-500 dark:hover:text-blue-500" />
               </IconButton>
             </a>
-    </div>
+            <a href="https://www.instagram.com/armenioamalio2k3/" target="_blank" rel="noopener noreferrer">
+              <IconButton variant="text" color="gray">         
+                <FaInstagram className="fa-brands fa-instagram text-lg  dark:text-white hover:text-blue-500 dark:hover:text-blue-500" />
+              </IconButton>
+            </a>
+            <a href="https://github.com/ArmenioHouane/" target="_blank" rel="noopener noreferrer">
+              <IconButton variant="text" color="gray">
+                <FaGithub className="fa-brands fa-github text-lg  dark:text-white hover:text-blue-500 dark:hover:text-blue-500" />
+              </IconButton>
+            </a>
+            <a href="http://www.linkedin.com/in/arménio-houane-b32246242" target="_blank" rel="noopener noreferrer">
+              <IconButton variant="text" color="gray">
+              <FaLinkedin className="fa-brands fa-linkedin text-lg  dark:text-white   hover:text-blue-500 dark:hover:text-blue-500" />
+              </IconButton>
+             </a>
+          </div>
+              
 
              
           </div>
