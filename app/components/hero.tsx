@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="container mx-auto grid place-items-center h-max text-center">
             <div className="w-72 h-72 overflow-hidden rounded-full flex items-center justify-center bg-white shadow-md">
             <Image
-  src="/images/profile.jpg"
+  src="/images/profile.JPG"
   alt="Armenio Amalio"
   width={500} // Adjust width as needed
   height={500} // Adjust height as needed
