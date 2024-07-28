@@ -1,3 +1,6 @@
+
+"use client";
+
 import React from 'react';
 import Icon from '../components/icon';
 import { Navbar } from '../navbar';

@@ -1,5 +1,5 @@
-// components/Icon.tsx
 
+"use client";
 import React from 'react';
 
 export const Icon = () => (
