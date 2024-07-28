@@ -2,6 +2,12 @@
 
 import React, { useEffect } from 'react';
 import ApexCharts from 'apexcharts';
+import { IoLogoJavascript } from "react-icons/io5";
+
+import { SiPhp } from "react-icons/si";
+import { SiCsharp } from "react-icons/si";
+import { IoLogoPython } from "react-icons/io5";
+import { FaJava } from "react-icons/fa";
 
 
 const ProgrammingLanguage: React.FC = () => {
@@ -151,7 +157,8 @@ const ProgrammingLanguage: React.FC = () => {
   }, []);
 
   return (
-    <div className='dark:bg-backdarkdm h-[33rem] py-20 '>
+    <div className=' dark:bg-backdarkdm h-[40rem]  py-20 ' >
+        <div className='dark:bg-backdarkdm h-[33rem]  max-h-[40rem] '>
       <div className="max-w-[66rem] mx-auto w-full bg-graybg rounded-lg shadow dark:bg-cardColorbm p-4 md:p-6 ">
         <div className="flex justify-between pb-4 mb-4 border-b border-gray-200 dark:border-gray-700">
           <div className="flex items-center">
@@ -168,9 +175,23 @@ const ProgrammingLanguage: React.FC = () => {
           </div>
         </div>
 
-        <div id="programming-language-chart"></div>
+        <div id="programming-language-chart">
+        
+        </div>
+        <div  className="flex flex-wrap justify-center items-center max-w-[61rem]  ">
+        <IoLogoJavascript className="m-2 mx-auto w-9 h-9" />
+<SiPhp className="m-2 mx-auto w-9 h-9" />
+<SiCsharp className="m-2 mx-auto w-9 h-9" />
+<IoLogoPython className="m-2 mx-auto w-9 h-9" />
+<FaJava className="m-2 mx-auto w-9 h-9" />
+        </div>
+        
       </div>
     </div>
+    </div>
+    
+
+    
   );
 };
 

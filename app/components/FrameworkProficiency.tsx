@@ -1,9 +1,13 @@
 "use client";
 
+import { SiNextdotjs } from "react-icons/si";
+import { FaLaravel, FaReact, FaVuejs, FaNodeJs } from "react-icons/fa";
+import { TbBrandReactNative } from "react-icons/tb";
+import { FaAngular } from "react-icons/fa6";
+import { SiExpress } from "react-icons/si";
 
-
-import React, { useEffect } from 'react';
-import ApexCharts from 'apexcharts';
+import React, { useEffect } from "react";
+import ApexCharts from "apexcharts";
 
 const FrameworkProficiency: React.FC = () => {
   useEffect(() => {
@@ -28,7 +32,6 @@ const FrameworkProficiency: React.FC = () => {
           name: "Proficiency:",
           color: "#FDBA8C",
           data: [
-           
             { x: "Next.js", y: 1.4 },
             { x: "Laravel", y: 2 },
             { x: "React", y: 3.7 },
@@ -42,7 +45,7 @@ const FrameworkProficiency: React.FC = () => {
       ],
       chart: {
         type: "bar",
-        height: "320px",
+        height: 320,
         fontFamily: "Inter, sans-serif",
         toolbar: {
           show: false,
@@ -61,28 +64,27 @@ const FrameworkProficiency: React.FC = () => {
         intersect: false,
         style: {
           fontFamily: "Inter, sans-serif",
-          
         },
         y: [
-            {
-              formatter: function(val:any) {
-                return val + " years";
-              },
+          {
+            formatter: function (val: any) {
+              return val + " years";
             },
-            {
-                formatter: function(val:any) {
-                    if (val < 1) {
-                      return ": Beginner";
-                    } else if (val < 2) {
-                      return ": Junior";
-                    } else if (val < 3) {
-                      return ": Intermediate";
-                    } else {
-                      return ": Senior";
-                    }
-              },
+          },
+          {
+            formatter: function (val: any) {
+              if (val < 1) {
+                return ": Beginner";
+              } else if (val < 2) {
+                return ": Junior";
+              } else if (val < 3) {
+                return ": Intermediate";
+              } else {
+                return ": Senior";
+              }
             },
-          ],
+          },
+        ],
       },
       states: {
         hover: {
@@ -113,14 +115,11 @@ const FrameworkProficiency: React.FC = () => {
         show: false,
       },
       xaxis: {
-       
         labels: {
-          show: true,
           style: {
             fontFamily: "Inter, sans-serif",
-            cssClass: 'text-xs  font-bold fill-black dark:fill-gray-400',
+            cssClass: "text-xs font-bold fill-black dark:fill-gray-400",
           },
-          
         },
         axisBorder: {
           show: false,
@@ -135,8 +134,8 @@ const FrameworkProficiency: React.FC = () => {
       fill: {
         opacity: 1,
       },
-      
     };
+
     let chart: ApexCharts | null = null;
 
     const renderChart = () => {
@@ -149,10 +148,10 @@ const FrameworkProficiency: React.FC = () => {
 
     renderChart();
 
-    window.addEventListener('resize', renderChart);
+    window.addEventListener("resize", renderChart);
 
     return () => {
-      window.removeEventListener('resize', renderChart);
+      window.removeEventListener("resize", renderChart);
       if (chart) {
         chart.destroy();
       }
@@ -160,29 +159,54 @@ const FrameworkProficiency: React.FC = () => {
   }, []);
 
   return (
-    <div className=' dark:bg-backdarkdm max-h-[30rem]   '>
-        <div className=' bg-white dark:bg-backdarkdm'>
-            
-     <div className="max-w-[66rem] mx-auto mt-auto w-full bg-graybg rounded-lg shadow dark:bg-cardColorbm p-4 md:p-6">
-      <div className="flex justify-between pb-4  mb-4 border-b border-gray-200 dark:border-gray-700">
-        <div className="flex items-center ">
-          <div className="w-12 h-12 rounded-lg bg-gray-100 dark:bg-gray-700 flex items-center justify-center me-3">
-            <svg className="w-6 h-6 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 19">
-              <path d="M14.5 0A3.987 3.987 0 0 0 11 2.1a4.977 4.977 0 0 1 3.9 5.858A3.989 3.989 0 0 0 14.5 0ZM9 13h2a4 4 0 0 1 4 4v2H5v-2a4 4 0 0 1 4-4Z"/>
-              <path d="M5 19h10v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2ZM5 7a5.008 5.008 0 0 1 4-4.9 3.988 3.988 0 1 0-3.9 5.859A4.974 4.974 0 0 1 5 7Zm5 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm5-1h-.424a5.016 5.016 0 0 1-1.942 2.232A6.007 6.007 0 0 1 17 17h2a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5ZM5.424 9H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h2a6.007 6.007 0 0 1 4.366-5.768A5.016 5.016 0 0 1 5.424 9Z"/>
-            </svg>
+   
+    <div className=' dark:bg-backdarkdm h-[40rem]  py-20 '>
+      <div className="dark:bg-backdarkdm max-h-[30rem]">
+      <div className="bg-white dark:bg-backdarkdm">
+        <div className="max-w-[66rem] mx-auto mt-auto w-full bg-graybg rounded-lg shadow dark:bg-cardColorbm p-4 md:p-6">
+          <div className="flex justify-between pb-4 mb-4 border-b border-gray-200 dark:border-gray-700">
+            <div className="flex items-center">
+              <div className="w-12 h-12 rounded-lg bg-gray-100 dark:bg-gray-700 flex items-center justify-center me-3">
+              <svg className="w-6 h-6 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 19">
+                <path d="M14.5 0A3.987 3.987 0 0 0 11 2.1a4.977 4.977 0 0 1 3.9 5.858A3.989 3.989 0 0 0 14.5 0ZM9 13h2a4 4 0 0 1 4 4v2H5v-2a4 4 0 0 1 4-4Z"/>
+                <path d="M5 19h10v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2ZM5 7a5.008 5.008 0 0 1 4-4.9 3.988 3.988 0 1 0-3.9 5.859A4.974 4.974 0 0 1 5 7Zm5 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm5-1h-.424a5.016 5.016 0 0 1-1.942 2.232A6.007 6.007 0 0 1 17 17h2a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5ZM5.424 9H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h2a6.007 6.007 0 0 1 4.366-5.768A5.016 5.016 0 0 1 5.424 9Z"/>
+              </svg>
+
+
+
+              </div>
+              <div>
+                <h5 className="leading-none text-2xl font-bold text-gray-900 dark:text-white pb-1">
+                  Framework Proficiency
+                </h5>
+                <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
+                  Experience Time and Proficiency
+                </p>
+              </div>
+            </div>
           </div>
-          <div>
-            <h5 className="leading-none text-2xl font-bold text-gray-900 dark:text-white pb-1">Framework Proficiency</h5>
-            <p className="text-sm font-normal text-gray-500 dark:text-gray-400">Experience Time and Proficiency</p>
-          </div>
+
+          <div id="framework-chart"></div>
+
+          <div className="flex flex-wrap justify-center items-center max-w-[60rem]">
+  <SiNextdotjs className="m-2 mx-auto w-9 h-9" />
+  <FaLaravel className="m-2 mx-auto w-9 h-9" />
+  <FaReact className="m-2 mx-auto w-9 h-9" />
+  <TbBrandReactNative className="m-2 mx-auto w-9 h-9" />
+  <FaVuejs className="m-2 mx-auto w-9 h-9" />
+  <FaAngular className="m-2 mx-auto w-9 h-9" />
+  <FaNodeJs className="m-2 mx-auto w-9 h-9" />
+  <SiExpress className=" m-2 mx-auto w-9 h-9" />
+</div>
+
         </div>
       </div>
-
-      <div id="framework-chart"></div>
-     </div>
-     </div>
     </div>
+      
+      </div>
+    
+
+    
   );
 };
 
