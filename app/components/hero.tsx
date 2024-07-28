@@ -6,7 +6,7 @@ import { IconButton } from "./material";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-
+import Image from 'next/image';
 
 
 
@@ -18,15 +18,21 @@ import { FaInstagram } from "react-icons/fa";
 const Hero = () => {
   return (
     <>
-      <ThemeToggle />
-      <div className="relative w-full bg-white dark:bg-black">
+      
+      <div className="relative w-full bg-white dark:bg-backdarkdm">
         <div className="grid place-items-center min-h-[92vh] px-8">
           <div className="container mx-auto grid place-items-center h-max text-center">
             <div className="w-72 h-72 overflow-hidden rounded-full flex items-center justify-center bg-white shadow-md">
-              <p className="dark:text-red-400 font-extrabold">Hello</p>
+            <Image
+  src="/images/profile.jpg"
+  alt="Imagem Redonda"
+  width={500} // Adjust width as needed
+  height={500} // Adjust height as needed
+  className="w-full h-auto object-cover" // Tailwind CSS classes
+/>
               </div>
 
-             <h1 className="block antialiased tracking-normal font-sans text-5xl font-semibold leading-tight text-texto dark:text-texto">
+             <h1 className="block antialiased tracking-normal font-sans text-5xl font-semibold leading-tight text-texto dark:text-gray-200">
               Armênio Amálio Houane
               </h1>
               <p className="block antialiased  text-xl font-normal leading-relaxed text-gray-600 mt-4 mb-12 w-full md:max-w-full lg:max-w-4xl"

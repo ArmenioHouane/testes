@@ -1,6 +1,8 @@
 "use client";
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
+import { IconButton } from "./material"; // Assuming you're using Material Tailwind for other components
+import { SunIcon, MoonIcon } from "@heroicons/react/24/solid"; // Importing SunIcon and MoonIcon from Heroicons
 
 const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();
@@ -12,13 +14,24 @@ const ThemeToggle = () => {
 
   if (!mounted) return null; // Prevents hydration mismatch
 
+  const handleThemeSwitcher = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+  };
+
   return (
-    <button
-      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      className="p-2 bg-gray-200 dark:bg-gray-800 text-black dark:text-white"
+    <IconButton
+      onClick={handleThemeSwitcher}
+      color="white"
+      style={{
+        borderRadius: '50%',
+      }}
     >
-      {theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-    </button>
+      {theme === 'light' ? (
+        <SunIcon className="h-6 w-6" /> // Sun icon for light theme
+      ) : (
+        <MoonIcon className="h-6 w-6" /> // Moon icon for dark theme
+      )}
+    </IconButton>
   );
 };
 
