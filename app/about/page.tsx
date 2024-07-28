@@ -35,7 +35,7 @@ const AboutPage = () => {
                 <h2 className="text-base font-semibold leading-7 text-indigo-600">About Me</h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">Introduction</p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Hi, I'm Armenio Amalio Houane, a dedicated web developer with a passion for 
+                  Hi, I &apos;m Armenio Amalio Houane, a dedicated web developer with a passion for 
                   creating dynamic and responsive web applications. With a solid background in both 
                   front-end and back-end technologies, I am committed to delivering high-quality digital solutions.
                 </p>
@@ -47,7 +47,7 @@ const AboutPage = () => {
         My Journey
         </h2>
         <p className="text-lg dark:text-gray-600 font-normal  dark:text-primary-300">
-            I've had a fulfilling journey in the world of web development, constantly learning and growing. Here's a detailed timeline of my professional trajectory
+            I &apos;ve had a fulfilling journey in the world of web development, constantly learning and growing. Here &apos;s a detailed timeline of my professional trajectory
             </p>
        
         <ol className="relative border-s border-gray-200 dark:border-gray-700">
@@ -283,7 +283,7 @@ const AboutPage = () => {
             <p className="text-base font-normal text-gray-800 dark:text-gray-400">
             In the current phase, I am leveraging my skills and experience to collaborate on innovative projects and continuously improve my expertise in advanced technologies. My work involves tackling real-world challenges and staying ahead in the web development field.
             <ul className="list-disc mt-2 list-inside ml-4 text-gray-500 dark:text-gray-500 ">
-            <li><span className="font-bold dark:text-blue-300 text-blackform">Collaboration:</span> Partnering with my brother's enterprise to tackle innovative projects and solve real-world problems.</li>
+            <li><span className="font-bold dark:text-blue-300 text-blackform">Collaboration:</span> Partnering with my brother &apos;s enterprise to tackle innovative projects and solve real-world problems.</li>
         <li><span className="font-bold dark:text-blue-300 text-blackform">Advanced Skills:</span> Continuously enhancing my skills in TypeScript, Tailwind CSS, and Next.js to stay at the forefront of web development.</li>
         <li><span className="font-bold dark:text-blue-300 text-blackform">Ongoing Projects:</span> Working on a variety of projects, including web applications, system analysis, and more.</li>
      </ul>
