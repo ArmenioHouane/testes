@@ -2,7 +2,6 @@
 "use client";
 
 import React from 'react';
-import Icon from '../components/icon';
 import { Navbar } from '../navbar';
 import Footer from '../footer';
 import FeatureGeneral from '../components/featuregeneral';
@@ -15,7 +14,7 @@ const ServicePage = () => {
     <Navbar />
     <FeatureGeneral />
     
-    <Icon />
+  
 
 
 
