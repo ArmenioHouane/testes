@@ -78,7 +78,7 @@ export function Navbar() {
           ))}
         </ul>
         <div className="hidden items-center gap-2 lg:flex">
-          <Button variant="text"></Button>
+          <Button variant="text"> </Button>
         </div>
         <IconButton
           variant="text"
@@ -103,7 +103,7 @@ export function Navbar() {
             ))}
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button variant="text"></Button>
+            <Button variant="text"> </Button>
           </div>
         </div>
       </Collapse>
