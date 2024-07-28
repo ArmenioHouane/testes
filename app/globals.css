@@ -3,3 +3,7 @@
 @tailwind utilities;
 
 
+.apexcharts-tooltip {
+    
+    @apply  text-black font-semibold dark:text-black;
+  }

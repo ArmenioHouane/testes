@@ -22,6 +22,8 @@ export function Projects() {
             Explore my diverse projects, showcasing my skills in web development, data visualization, and advanced front-end technologies.
             Each project highlights my ability to create effective, scalable, and visually engaging solutions.
           </Typography>
+
+
         </div>
 
         

@@ -1,5 +1,5 @@
 import Navbar from "./navbar";
-
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import InformationSection from "./components/information";
 import Hero from "./components/hero";
@@ -8,6 +8,20 @@ import Timeline from "./components/timeline";
 import Languages from "./components/language";
 import Projects from "./projects";
 import Footer from "./footer";
+ 
+const DynamicFrameworkProficiency = dynamic(() => import ('./components/FrameworkProficiency'), {
+  ssr: false,
+  
+}
+);
+
+const DynamicLanguageProficiency = dynamic(() => import ('./components/ProgrammingProeficiency'), {
+  ssr: false,
+  
+}
+);
+
+
 
 
 export default function Home() {
@@ -18,6 +32,8 @@ export default function Home() {
     <InformationSection />
     <Timeline />
     <Languages />
+    <DynamicFrameworkProficiency />
+    <DynamicLanguageProficiency />
     <Projects />
    
     <Footer />

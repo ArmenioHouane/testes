@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import ThemeToggle from "./toggle";
 import { Button } from "./material";
 import { FaGithub } from "react-icons/fa";
@@ -6,7 +7,7 @@ import { IconButton } from "./material";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import Image from 'next/image';
+
 
 
 
@@ -16,6 +17,7 @@ import Image from 'next/image';
 
 
 const Hero = () => {
+  
   return (
     <>
       
@@ -25,10 +27,10 @@ const Hero = () => {
             <div className="w-72 h-72 overflow-hidden rounded-full flex items-center justify-center bg-white shadow-md">
             <Image
   src="/images/profile.jpg"
-  alt="Imagem Redonda"
+  alt="Armenio Amalio"
   width={500} // Adjust width as needed
   height={500} // Adjust height as needed
-  className="w-full h-auto object-cover" // Tailwind CSS classes
+  className="w-full h-auto" // Tailwind CSS classes
 />
               </div>
 

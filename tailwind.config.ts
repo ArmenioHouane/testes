@@ -10,6 +10,7 @@ const config: Config = withMT({
   ],
   theme: {
     extend: {
+      
       colors: {
         texto: '#263238',
         backdarkdm: '#1C1B1E', // Dark Mode Background
