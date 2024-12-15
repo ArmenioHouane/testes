@@ -118,7 +118,7 @@ const FrameworkProficiency: React.FC = () => {
         labels: {
           style: {
             fontFamily: "Inter, sans-serif",
-            cssClass: "text-xs font-bold  fill-black dark:fill-gray-400",
+            cssClass: "text-xs font-bold fill-black dark:fill-gray-400",
           },
         },
         axisBorder: {
@@ -189,7 +189,7 @@ const FrameworkProficiency: React.FC = () => {
           <div id="framework-chart"></div>
 
           <div className="flex flex-wrap justify-center items-center max-w-[60rem]">
-  <SiNextdotjs className="m-2  mx-auto w-9 h-9" />
+  <SiNextdotjs className="m-2 mx-auto w-9 h-9" />
   <FaLaravel className="m-2 mx-auto w-9 h-9" />
   <FaReact className="m-2 mx-auto w-9 h-9" />
   <TbBrandReactNative className="m-2 mx-auto w-9 h-9" />

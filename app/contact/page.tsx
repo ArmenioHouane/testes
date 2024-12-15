@@ -12,9 +12,9 @@ const ContactPage = () => {
 
 <Navbar />
 <div className='bg-white dark:bg-backdarkdm'>
-    <div className="max-w-[85rem] bg-white dark:bg-[#1C1B1E]  px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div className="max-w-2xl  dark:bg-[#1C1B1E]  lg:max-w-5xl mx-auto">
-          <div className="text-center ">
+    <div className="max-w-[85rem] bg-white dark:bg-backdarkdm  px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div className="max-w-2xl bg-graybg dark:bg-blackcard rounded-[1rem] lg:max-w-5xl mx-auto">
+          <div className="text-center">
             <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">
               Contact me
             </h1>
@@ -24,7 +24,7 @@ const ContactPage = () => {
           </div>
           <div className="mt-12 grid items-center lg:grid-cols-2 gap-6 lg:gap-16">
             {/* Card */}
-            <div className="flex flex-col bg-graybg dark:bg-[#1C1B1E] border rounded-xl p-4 sm:p-6 lg:p-8 dark:border-[#3f3f3f]">
+            <div className="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 dark:border-neutral-700">
               <h2 className="mb-8 text-xl font-semibold text-gray-800 dark:text-white">
                 Fill in the form
               </h2>
@@ -43,7 +43,7 @@ const ContactPage = () => {
                         type="text"
                         name="hs-firstname-contacts-1"
                         id="hs-firstname-contacts-1"
-                        className="py-3 px-4 block w-full border-[#1C1B1E] rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                        className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
                         placeholder="First Name"
                       />
                     </div>
@@ -104,7 +104,7 @@ const ContactPage = () => {
                 <div className="mt-4 grid">
                   <button
                     type="submit"
-                    className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-black text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                    className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
                   >
                     Send inquiry
                   </button>
@@ -117,7 +117,7 @@ const ContactPage = () => {
               </form>
             </div>
             {/* End Card */}
-            <div className="divide-y divide-gray-200 dark:divide-[#59575c]">
+            <div className="divide-y divide-gray-200 dark:divide-neutral-800">
               {/* Icon Block */}
               <div className="flex gap-x-7 py-6">
                 <svg
@@ -141,7 +141,7 @@ const ContactPage = () => {
                     Knowledgebase
                   </h3>
                   <p className="mt-1 text-sm text-gray-500 dark:text-neutral-500">
-                    We&apos;re here to help with any questions or code.
+                    We &apos;re here to help with any questions or code.
                   </p>
                   
                 </div>
