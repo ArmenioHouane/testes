@@ -5,14 +5,6 @@
 
 .apexcharts-tooltip {
     
-    @apply  text-black font-semibold dark:text-black;
+    @apply  text-black font-semibold dark:text-black ;
   }
 
-
-@layer base {
-  :root {
-
-
-        --radius: 0.5rem
-    }
-}
