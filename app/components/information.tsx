@@ -182,6 +182,7 @@ const SKILLS = [
         </Typography>
         <ul className="list-disc pl-5 mb-2 text-black dark:text-gray-400">
           <li>Vite</li>
+          <li>Vercel</li>
           <li>Netlify</li>
           <li>Amazon Web Services (AWS)</li>
           <li>Google Cloud Plataform (GCP)</li>

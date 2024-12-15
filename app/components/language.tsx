@@ -40,7 +40,7 @@ const Languages = () => {
           </div>
         </div>
       </div>
-      <div className='max-w-[70rem] mx-auto'>
+<div className='max-w-[70rem] mx-auto'>
         <h3 className='mb-3 font-bold text-2xl md:text-2xl text-black dark:text-gray-300 ml-3'>French</h3>
         <div className='bg-gray-300 dark:bg-gray-800 relative h-4 w-full rounded-2xl' title='Basic'>
           <div className='bg-red-600 absolute top-0 left-0 flex h-full w-[20%] items-center justify-center rounded-2xl text-xs font-semibold text-white'>
@@ -48,6 +48,15 @@ const Languages = () => {
           </div>
         </div>
       </div>
+      <div className='mb-2 max-w-[70rem] mx-auto'>
+        <h3 className='mb-3 font-bold text-2xl md:text-2xl text-black dark:text-gray-300 ml-3'>Japanese</h3>
+        <div className='bg-gray-300 dark:bg-gray-800 relative h-4 w-full rounded-2xl' title='Basic'>
+          <div className='bg-red-600 absolute top-0 left-0 flex h-full w-[20%] items-center justify-center rounded-2xl text-xs font-semibold text-white'>
+            20%
+          </div>
+        </div>
+      </div>
+      
       </div>
     </div>
   );

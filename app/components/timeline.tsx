@@ -38,7 +38,7 @@ const Timeline = () => {
                       />
                     </svg>
                   </span>
-                  <span className="inline-flex items-center rounded bg-gray-100 px-2.5 py-0.5 text-xs  font-semibold  dark:text-primary-300">
+                  <span className="inline-flex items-center rounded bg-gray-100 px-2.5 py-0.5 text-xs font-semibold text-black dark:bg-primary-900 dark:font-bold">
                     <svg
                       className="me-1 h-3 w-3"
                       aria-hidden="true"
@@ -88,7 +88,7 @@ const Timeline = () => {
                       />
                     </svg>
                   </span>
-                  <span className="inline-flex items-center rounded bg-gray-100 px-2.5 py-0.5 text-xs font-semibold dark:bg-primary-900 dark:text-primary-300">
+                  <span className="inline-flex items-center rounded bg-gray-100 px-2.5 py-0.5 text-xs font-semibold text-black dark:bg-primary-900 dark:font-bold">
                     <svg
                       className="me-1 h-3 w-3"
                       aria-hidden="true"
