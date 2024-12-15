@@ -5,6 +5,7 @@
 import React from 'react';
 import { Navbar } from '../navbar';
 import Footer from '../footer';
+import Link from 'next/link';
 
 const ContactPage = () => {
   return (
@@ -173,7 +174,7 @@ const ContactPage = () => {
                   <p className="mt-1 text-sm text-gray-500 dark:text-neutral-500">
                     Check out our development quickstart guide.
                   </p>
-                  <a
+                  <Link
                     className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-blue-600"
                     href="/service"
                   >
@@ -193,7 +194,7 @@ const ContactPage = () => {
                         fill="currentColor"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* End Icon Block */}
@@ -221,12 +222,12 @@ const ContactPage = () => {
                   <p className="mt-1 text-sm text-gray-500 dark:text-neutral-500">
                     If you wish to write us an email instead please use
                   </p>
-                  <a
+                  <Link
                     className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-blue-600"
                     href="#"
                   >
                     armenioamalio2003@gmail.com
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* End Icon Block */}

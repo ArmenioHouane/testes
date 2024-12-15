@@ -223,14 +223,14 @@ const AboutPage = () => {
             <h3 className="mb-1.5 mt-2 text-lg font-semibold leading-none text-gray-900 dark:text-white">
             Professional Growth
             </h3>
-            <p className="text-base font-normal text-gray-800 dark:text-gray-400">
+            <div className="text-base font-normal text-gray-800 dark:text-gray-400">
             This phase marked a significant leap in my professional journey, where I tackled more complex projects and specialized in advanced web design techniques. My focus shifted towards enhancing problem-solving skills and mastering build tools for efficient deployment.
             <ul className="list-disc mt-2 list-inside ml-4  text-gray-500 dark:text-gray-500 ">
         <li><span className="font-bold dark:text-blue-300 text-blackform">Complex Projects:</span> Worked on larger, more complex projects, enhancing my problem-solving skills and attention to detail.</li>
         <li><span className="font-bold dark:text-blue-300 text-blackform">Responsive Design:</span> Specialized in creating responsive designs using CSS Grid, Flexbox, and media queries, ensuring seamless user experiences across devices.</li>
         <li><span className="font-bold dark:text-blue-300 text-blackform">Build Tools & Deployment:</span> Gained experience with build tools and deployment platforms like Vite, Netlify, AWS, and GCP, streamlining the development process.</li>
     </ul>
-            </p>
+            </div>
           </li>
 
 
@@ -282,14 +282,14 @@ const AboutPage = () => {
             <h3 className="mb-1.5 mt-2 text-lg font-semibold leading-none text-gray-900 dark:text-white">
             Current Focus
             </h3>
-            <p className="text-base font-normal text-gray-800 dark:text-gray-400">
+            <div className="text-base font-normal text-gray-800 dark:text-gray-400">
             In the current phase, I am leveraging my skills and experience to collaborate on innovative projects and continuously improve my expertise in advanced technologies. My work involves tackling real-world challenges and staying ahead in the web development field.
             <ul className="list-disc mt-2 list-inside ml-4 text-gray-500 dark:text-gray-500 ">
             <li><span className="font-bold dark:text-blue-300 text-blackform">Collaboration:</span> Partnering with my brother &apos;s enterprise to tackle innovative projects and solve real-world problems.</li>
         <li><span className="font-bold dark:text-blue-300 text-blackform">Advanced Skills:</span> Continuously enhancing my skills in TypeScript, Tailwind CSS, and Next.js to stay at the forefront of web development.</li>
         <li><span className="font-bold dark:text-blue-300 text-blackform">Ongoing Projects:</span> Working on a variety of projects, including web applications, system analysis, and more.</li>
      </ul>
-            </p>
+            </div>
           </li>
 
 

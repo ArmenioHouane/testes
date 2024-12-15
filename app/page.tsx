@@ -6,7 +6,7 @@ import Hero from "./components/hero";
 import Cardal from "./components/card";
 import Timeline from "./components/timeline";
 import Languages from "./components/language";
-import Projects from "./projects";
+import { ProjectsSection } from "@/components/projects-section";
 import Footer from "./footer";
  
 const DynamicFrameworkProficiency = dynamic(() => import ('./components/FrameworkProficiency'), {
@@ -34,7 +34,7 @@ export default function Home() {
     <Languages />
     <DynamicFrameworkProficiency />
     <DynamicLanguageProficiency />
-    <Projects />
+    <ProjectsSection />
    
     <Footer />
 
