@@ -29,13 +29,35 @@ const projects: Project[] = [
     liveDemoUrl: "https://weather-dashboard-demo.com",
     technologies: ["React", "Redux", "OpenWeatherMap API", "Chart.js"],
   },
+  {
+    id: "4",
+    title: "School Plataform Dashboard",
+    description: "An interactive weather forecast dashboard that provides real-time data and 7-day forecasts for multiple locations.",
+    imageUrl: "/images/placeholder.svg",
+    sourceCodeUrl: "https://github.com/username/weather-dashboard",
+    liveDemoUrl: "https://weather-dashboard-demo.com",
+    technologies: ["React", "Redux", "OpenWeatherMap API", "Chart.js"],
+  },
+  {
+    id: "5",
+    title: "Mobile Calculator",
+    description: "An interactive weather forecast dashboard that provides real-time data and 7-day forecasts for multiple locations.",
+    imageUrl: "/images/placeholder.svg",
+    sourceCodeUrl: "https://github.com/username/weather-dashboard",
+    liveDemoUrl: "https://weather-dashboard-demo.com",
+    technologies: ["React-Native", "Expo", "Redux", "Currency API", "Math.js"],
+  },
 ]
 
 export function ProjectsSection() {
   return (
-    <section className="py-12 px-4  md:px-6 lg:px-8">
+    <section className="py-12 dark:bg-[#1C1B1E] px-4  md:px-6 lg:px-8">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-center">My Projects</h2>
+        <p className="text-center mb-6">Here you can see my projects that I have worked on.</p>
+
+
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />

@@ -7,17 +7,18 @@ import { Project } from "@/types/project"
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
-    <Card className="flex flex-col h-full rounded-[4px] shadow-lg   dark:border-[#3b3b3b] dark:bg-[#111113]">
+    <Card className="flex flex-col h-full rounded-[4px] shadow-lg   dark:border-[#3b3b3b] dark:bg-[#1a1a1b]">
       <CardHeader>
+        
         <CardTitle>{project.title}</CardTitle>
       </CardHeader>
       <CardContent className="flex-grow">
-        <div className="relative w-full h-48 mb-4">
+        <div className="relative w-full  h-48 mb-4">
           <Image
             src={project.imageUrl}
             alt={project.title}
             fill
-            className="object-cover rounded-md"
+            className="object-cover rounded-[3px]"
           />
         </div>
         <p className="text-sm text-neutral-500 mb-4 dark:text-neutral-400">{project.description}</p>

@@ -19,7 +19,7 @@ const Timeline = () => {
             <div className="relative">
               <ol className="relative border-l border-gray-200 dark:border-gray-700">
                 <li className="ms-6">
-                  <span className="absolute -start-2.5 flex h-5 w-5 items-center justify-center rounded-full bg-black ring-8 ring-white dark:bg-gray-800 dark:ring-gray-900">
+                  <span className="absolute -start-2.5 flex h-5 w-5 items-center justify-center rounded-full bg-black ring-8 ring-white dark:bg-gray-800 dark:ring-gray-900 dark:text-black">
                     <svg
                       className="h-3 w-3 text-gray-500 dark:text-gray-400"
                       aria-hidden="true"
@@ -38,7 +38,7 @@ const Timeline = () => {
                       />
                     </svg>
                   </span>
-                  <span className="inline-flex items-center rounded bg-gray-100 px-2.5 py-0.5 text-xs  font-semibold  dark:text-primary-300">
+                  <span className="inline-flex items-center rounded bg-gray-100 px-2.5 py-0.5 text-xs  font-semibold  dark:text-black">
                     <svg
                       className="me-1 h-3 w-3"
                       aria-hidden="true"
@@ -68,10 +68,10 @@ const Timeline = () => {
                     <li><span className="font-bold dark:text-green-800 text-green-600">Basic Projects:</span> Created simple web pages and static websites.</li>
                   </ul>
                 </li>
-                <li className="ms-6 mt-6">
-                  <span className="absolute -start-2.5 flex h-5 w-5 items-center justify-center rounded-full bg-black ring-8 ring-white dark:bg-gray-800 dark:ring-gray-900">
+                <li className="ms-6 mt-6 ">
+                  <span className="absolute -start-2.5 flex h-5 w-5 items-center justify-center rounded-full bg-black ring-8 ring-white dark:bg-gray-800 dark:ring-gray-900 dark:text-black">
                     <svg
-                      className="h-3 w-3 text-gray-500 dark:text-gray-400"
+                      className="h-3 w-3  text-gray-500 dark:text-gray-400"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -88,7 +88,7 @@ const Timeline = () => {
                       />
                     </svg>
                   </span>
-                  <span className="inline-flex items-center rounded bg-gray-100 px-2.5 py-0.5 text-xs font-semibold dark:bg-primary-900 dark:text-primary-300">
+                  <span className="inline-flex items-center rounded bg-gray-100 px-2.5 py-0.5 text-xs font-semibold dark:bg-primary-900 dark:text-black">
                     <svg
                       className="me-1 h-3 w-3"
                       aria-hidden="true"
