@@ -24,8 +24,6 @@ function NavItem({ children, href }: { children: React.ReactNode, href: string }
     <li>
       <Link href={href}>
         <Typography
-          as="a"
-          href={href}
           variant="paragraph"
           color="gray"
           className="flex items-center gap-2 font-semibold text-black hover:text-bgHoverlm dark:text-white  dark:hover:text-bgHoverlm"
@@ -61,15 +59,16 @@ export function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between lg:pl-6">
       <ThemeToggle />
-        <Typography
-          as="a"
-          href="/"
-          target="_blank"
-          color="blue-gray"
-          className="text-lg font-bold hover:text-bgHoverlm dark:text-white dark:hover:text-bgHoverlm pl-3"
-        >
-          Armênio Houane
-        </Typography>
+      <Link href="/" passHref>
+  <Typography
+    color="blue-gray"
+    className="text-lg font-bold hover:text-bgHoverlm dark:text-white dark:hover:text-bgHoverlm pl-3"
+  >
+    Armênio Houane
+  </Typography>
+</Link>
+
+       
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {NAV_MENU.map((nav) => (
             <NavItem key={nav.name} href={nav.href}>

@@ -19,13 +19,13 @@ export function Footer() {
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 border-t border-gray-200 py-6 md:justify-between">
           <Typography className="text-center font-normal text-gray-700 dark:text-gray-300 hover:text-slate-950">
             &copy; {CURRENT_YEAR} Made with{" "}
-            <a href="/about" target="_blank">
+            <Link href="/" target="_blank">
               Material Tailwind
-            </a>{" "}
+            </Link>{" "}
             by{" "}
-            <a href="/" target="_blank">
+            <Link href="/" target="_blank">
               Armenio
-            </a>
+            </Link>
             .
           </Typography>
           <ul className="flex gap-8 items-center">
@@ -33,7 +33,6 @@ export function Footer() {
               <li key={link.name}>
                 <Link href={link.href}>
                   <Typography
-                    as="a"
                     variant="small"
                     className="font-bold text-gray-700 dark:text-gray-100 hover:text-blue-800 dark:hover:text-blue-800 transition-colors cursor-pointer"
                   >
